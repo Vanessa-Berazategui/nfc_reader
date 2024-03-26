@@ -1,6 +1,6 @@
 // Package imports:
-import 'package:nfc_card_domain/nfc_card_domain.dart';
 import 'package:injectable/injectable.dart';
+import 'package:nfc_card_domain/nfc_card_domain.dart';
 
 @module
 abstract class AppUseCasesModule {

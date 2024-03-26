@@ -1,7 +1,7 @@
 // Project imports:
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:nfc_card_data/nfc_card_data.dart';
 import 'package:nfc_card_data/src/api/params/counter_data_params.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class CounterLocalDataSource extends BaseDataSource {
   const CounterLocalDataSource({

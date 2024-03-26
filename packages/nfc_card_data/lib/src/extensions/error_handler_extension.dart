@@ -3,11 +3,10 @@ import 'dart:developer';
 
 // Package imports:
 import 'package:dio/dio.dart';
-import 'package:nfc_card_domain/nfc_card_domain.dart';
-
 // Project imports:
 import 'package:nfc_card_data/src/exceptions/exceptions.dart';
 import 'package:nfc_card_data/src/types.dart';
+import 'package:nfc_card_domain/nfc_card_domain.dart';
 
 extension ErrorHandler on BaseRepository {
   Future<Result<T>> process<T>({

@@ -8,29 +8,21 @@
 // coverage:ignore-file
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/app.dart' as _i3;
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/dependencies/app_blocs_module.dart'
-    as _i15;
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/dependencies/app_datasources_module.dart'
-    as _i11;
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/dependencies/app_packages_module.dart'
-    as _i12;
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/dependencies/app_repositories_module.dart'
-    as _i13;
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/dependencies/app_usecases_module.dart'
-    as _i14;
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/environment/app_environment_development.dart'
-    as _i5;
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/environment/app_environment_production.dart'
-    as _i6;
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/app/environment/app_environment_staging.dart'
-    as _i4;
-import 'package:nfc_card_data/nfc_card_data.dart' as _i7;
-import 'package:nfc_card_domain/nfc_card_domain.dart' as _i9;
-import 'package:nfc_card_presentation/nfc_card_presentation.dart' as _i10;
+import 'package:demo/app/app.dart' as _i3;
+import 'package:demo/app/dependencies/app_blocs_module.dart' as _i15;
+import 'package:demo/app/dependencies/app_datasources_module.dart' as _i11;
+import 'package:demo/app/dependencies/app_packages_module.dart' as _i12;
+import 'package:demo/app/dependencies/app_repositories_module.dart' as _i13;
+import 'package:demo/app/dependencies/app_usecases_module.dart' as _i14;
+import 'package:demo/app/environment/app_environment_development.dart' as _i5;
+import 'package:demo/app/environment/app_environment_production.dart' as _i6;
+import 'package:demo/app/environment/app_environment_staging.dart' as _i4;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart' as _i8;
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
+import 'package:nfc_card_data/nfc_card_data.dart' as _i7;
+import 'package:nfc_card_domain/nfc_card_domain.dart' as _i9;
+import 'package:nfc_card_presentation/nfc_card_presentation.dart' as _i10;
 
 const String _stg = 'stg';
 const String _dev = 'dev';

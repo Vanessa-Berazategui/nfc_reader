@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(flutter_ddd_skeleton_monorepo_flavour_1 LANGUAGES CXX)
+project(demo LANGUAGES CXX)
 
-set(BINARY_NAME "flutter_ddd_skeleton_monorepo_flavour_1")
+set(BINARY_NAME "demo")
 
 cmake_policy(SET CMP0063 NEW)
 

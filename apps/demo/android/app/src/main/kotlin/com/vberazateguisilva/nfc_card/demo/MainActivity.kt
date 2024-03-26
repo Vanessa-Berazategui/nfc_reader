@@ -1,4 +1,4 @@
-package com.vberazateguisilva.flutter_ddd_skeleton_monorepo_flavour_1
+package com.vberazateguisilva.nfc_card.demo
 
 import io.flutter.embedding.android.FlutterActivity
 

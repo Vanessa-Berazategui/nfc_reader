@@ -1,11 +1,9 @@
 // Flutter imports:
 import 'package:flutter/foundation.dart';
-
+// Project imports:
+import 'package:demo/counter/app_counter_page.dart';
 // Package imports:
 import 'package:nfc_card_presentation/nfc_card_presentation.dart';
-
-// Project imports:
-import 'package:flutter_ddd_skeleton_monorepo_flavour_1/counter/app_counter_page.dart';
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
 

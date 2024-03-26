@@ -1,7 +1,7 @@
 // Package imports:
 import 'package:bloc/bloc.dart';
-import 'package:nfc_card_domain/nfc_card_domain.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:nfc_card_domain/nfc_card_domain.dart';
 
 part 'counter_bloc.freezed.dart';
 part 'counter_state.dart';

@@ -1,5 +1,4 @@
 // Project imports:
-import 'package:nfc_card_domain/nfc_card_domain.dart';
 import 'package:nfc_card_presentation/nfc_card_presentation.dart';
 import 'package:nfc_card_presentation/src/core/core.dart';
 
