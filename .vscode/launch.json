@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Demo development",
+            "name": "Nfc Reader Demo Development",
             "request": "launch",
             "type": "dart",
-            "program": "apps/demo/lib/main_development.dart",
+            "program": "apps/nfc_reader_demo/lib/main_development.dart",
             "args": [
                 "--flavor",
                 "development",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "name": "Demo staging",
+            "name": "Nfc Reader Demo Staging",
             "request": "launch",
             "type": "dart",
-            "program": "apps/demo/lib/main_staging.dart",
+            "program": "apps/nfc_reader_demo/lib/main_staging.dart",
             "args": [
                 "--flavor",
                 "staging",
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "name": "Demo production",
+            "name": "Nfc Reader Demo Production",
             "request": "launch",
             "type": "dart",
             "program": "apps/demo/lib/main_production.dart",

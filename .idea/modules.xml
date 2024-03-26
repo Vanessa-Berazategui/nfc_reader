@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/apps/demo/melos_demo.iml" filepath="$PROJECT_DIR$/apps/demo/melos_demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/packages/nfc_card_data/melos_nfc_card_data.iml" filepath="$PROJECT_DIR$/packages/nfc_card_data/melos_nfc_card_data.iml" />
-      <module fileurl="file://$PROJECT_DIR$/packages/nfc_card_domain/melos_nfc_card_domain.iml" filepath="$PROJECT_DIR$/packages/nfc_card_domain/melos_nfc_card_domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/packages/nfc_card_presentation/melos_nfc_card_presentation.iml" filepath="$PROJECT_DIR$/packages/nfc_card_presentation/melos_nfc_card_presentation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/melos_nfc_card.iml" filepath="$PROJECT_DIR$/melos_nfc_card.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/nfc_reader_data/melos_nfc_reader_data.iml" filepath="$PROJECT_DIR$/packages/nfc_reader_data/melos_nfc_reader_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/nfc_reader_domain/melos_nfc_reader_domain.iml" filepath="$PROJECT_DIR$/packages/nfc_reader_domain/melos_nfc_reader_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/nfc_reader_presentation/melos_nfc_reader_presentation.iml" filepath="$PROJECT_DIR$/packages/nfc_reader_presentation/melos_nfc_reader_presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_nfc_reader.iml" filepath="$PROJECT_DIR$/melos_nfc_reader.iml" />
     </modules>
   </component>
 </project>

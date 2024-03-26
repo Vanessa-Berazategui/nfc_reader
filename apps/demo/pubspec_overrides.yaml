@@ -1,8 +1,0 @@
-# melos_managed_dependency_overrides: nfc_card_data,nfc_card_domain,nfc_card_presentation
-dependency_overrides:
-  nfc_card_data:
-    path: ../../packages/nfc_card_data
-  nfc_card_domain:
-    path: ../../packages/nfc_card_domain
-  nfc_card_presentation:
-    path: ../../packages/nfc_card_presentation

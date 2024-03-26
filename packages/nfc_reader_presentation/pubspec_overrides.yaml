@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: nfc_reader_data,nfc_reader_domain
+dependency_overrides:
+  nfc_reader_data:
+    path: ../nfc_reader_data
+  nfc_reader_domain:
+    path: ../nfc_reader_domain

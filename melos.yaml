@@ -1,4 +1,4 @@
-name: nfc_card
+name: nfc_reader
 
 packages:
   - packages/**

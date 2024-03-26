@@ -25,4 +25,4 @@ Also in this ready to go DDD skeleton is configured:
 * Flutter gherkin integration test.
 * FVM configuration.
 * Makefile for useful commands.
-# nfc_card
+# nfc_reader
