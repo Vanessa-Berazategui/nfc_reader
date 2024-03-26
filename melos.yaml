@@ -1,0 +1,5 @@
+name: nfc_card
+
+packages:
+  - packages/**
+  - apps/**
