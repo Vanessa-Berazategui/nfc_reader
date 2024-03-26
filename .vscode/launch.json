@@ -32,7 +32,7 @@
             "name": "Nfc Reader Demo Production",
             "request": "launch",
             "type": "dart",
-            "program": "apps/demo/lib/main_production.dart",
+            "program": "apps/nfc_reader_demo/lib/main_production.dart",
             "args": [
                 "--flavor",
                 "production",

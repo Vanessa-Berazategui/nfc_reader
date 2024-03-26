@@ -6,15 +6,13 @@ import 'package:nfc_reader_domain/nfc_reader_domain.dart';
 @module
 abstract class AppRepositoriesModule {
   //============================
-  // Counter
+  // NFC
   //============================
   @lazySingleton
-  CounterRepository aboutRepository(
-    CounterLocalDataSource localDataSource,
-    CounterRemoteDataSource remoteDataSource,
+  NFCRepository nfcRepository(
+    NFCDataSource dataSource,
   ) =>
-      CounterDataRepository(
-        localDataSource: localDataSource,
-        remoteDataSource: remoteDataSource,
+      NFCDataRepository(
+        dataSource: dataSource,
       );
 }

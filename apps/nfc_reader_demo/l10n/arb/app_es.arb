@@ -1,11 +1,4 @@
 {
     "@@locale": "es",
-    "counterAppBarTitle": "Contador",
-    "@counterAppBarTitle": {
-        "description": "Texto mostrado en la AppBar de la página del contador"
-    },
-    "counterEmptyCache": "Valor de contador no guardado",
-    "@counterEmptyCache": {
-        "description": "Texto mostrado cuando no hay ningun valor de contador salvado"
-    }
+    "nfcMeaning": "NFC (Near Field Communication), en castellano Comunicación de Campo Cercano, es una tecnología que permite la comunicación de corto alcance entre dos dispositivos inalámbricos de manera cómoda y rápida."
 }

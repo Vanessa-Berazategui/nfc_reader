@@ -5,17 +5,11 @@ import 'package:nfc_reader_domain/nfc_reader_domain.dart';
 @module
 abstract class AppUseCasesModule {
   //============================
-  // Counter
+  // NFC
   //============================
   @lazySingleton
-  GetCounterUseCase getCounterUseCase(
-    CounterRepository repository,
+  GetNFCSupportUseCase getNFSupportUseCase(
+    NFCRepository repository,
   ) =>
-      GetCounterUseCase(repository: repository);
-
-  @lazySingleton
-  SaveCounterUseCase saveCounterUseCase(
-    CounterRepository repository,
-  ) =>
-      SaveCounterUseCase(repository: repository);
+      GetNFCSupportUseCase(repository: repository);
 }

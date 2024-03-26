@@ -16,8 +16,11 @@ class $AssetsImagesGen {
   AssetGenImage get launcher =>
       const AssetGenImage('assets/images/launcher.png');
 
+  /// File path: assets/images/nfc.jpeg
+  AssetGenImage get nfc => const AssetGenImage('assets/images/nfc.jpeg');
+
   /// List of all assets
-  List<AssetGenImage> get values => [launcher];
+  List<AssetGenImage> get values => [launcher, nfc];
 }
 
 class Assets {

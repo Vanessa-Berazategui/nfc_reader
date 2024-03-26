@@ -54,5 +54,7 @@
     <true/>
     <key>UIStatusBarHidden</key>
     <false/>
+    <key>NFCReaderUsageDescription</key>
+    <string>NFC is required to read tags</string>
   </dict>
 </plist>

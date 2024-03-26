@@ -49,8 +49,6 @@ flutter:
   generate: true
 
   assets:
-    - assets/animations/
-    - assets/icons/
     - assets/images/
 
 flutter_gen:

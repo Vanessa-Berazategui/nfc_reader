@@ -4,10 +4,10 @@ import 'dart:developer';
 
 // Package imports:
 import 'package:bloc/bloc.dart';
-// Flutter imports:
-import 'package:flutter/widgets.dart';
 // Project imports:
 import 'package:demo/app/dependencies/dependencies.dart';
+// Flutter imports:
+import 'package:flutter/widgets.dart';
 
 class AppBlocObserver extends BlocObserver {
   const AppBlocObserver();
