@@ -61,10 +61,21 @@ extension GetItInjectableX on _i1.GetIt {
         () => appDataSourcesModule.nfcDataSource());
     gh.lazySingleton<_i9.NFCRepository>(
         () => appRepositoriesModule.nfcRepository(gh<_i8.NFCDataSource>()));
+    gh.lazySingleton<_i9.StartReaderUseCase>(
+        () => appUseCasesModule.startReaderUseCase(gh<_i9.NFCRepository>()));
+    gh.lazySingleton<_i9.StopReaderUseCase>(
+        () => appUseCasesModule.stopReaderUseCase(gh<_i9.NFCRepository>()));
     gh.lazySingleton<_i9.GetNFCSupportUseCase>(
         () => appUseCasesModule.getNFSupportUseCase(gh<_i9.NFCRepository>()));
+    gh.lazySingleton<_i9.GetTagReaderStream>(
+        () => appUseCasesModule.getTagReaderUseCase(gh<_i9.NFCRepository>()));
     gh.factory<_i10.HomeBloc>(
         () => appBlocsModule.homeBloc(gh<_i9.GetNFCSupportUseCase>()));
+    gh.factory<_i10.TagReaderBloc>(() => appBlocsModule.tagReaderBloc(
+          gh<_i9.GetTagReaderStream>(),
+          gh<_i9.StartReaderUseCase>(),
+          gh<_i9.StopReaderUseCase>(),
+        ));
     return this;
   }
 }

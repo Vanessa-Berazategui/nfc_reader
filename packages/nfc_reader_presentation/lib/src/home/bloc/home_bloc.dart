@@ -1,6 +1,5 @@
 // Package imports:
 import 'package:bloc/bloc.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:nfc_reader_domain/nfc_reader_domain.dart';
 
@@ -43,4 +42,6 @@ class HomeBloc extends Cubit<HomeState> {
   }
 
   void cleanFailure() => emit(state.copyWith(failure: null));
+
+  Future<void> checkAgain() => _loadData();
 }

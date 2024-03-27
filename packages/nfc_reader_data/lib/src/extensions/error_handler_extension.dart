@@ -21,6 +21,8 @@ extension ErrorHandler on BaseRepository {
       rethrow;
     } on CacheException {
       return Result.failure(const Failure.cache());
+    } on NFCReadException {
+      return Result.failure(const Failure.nfcRead());
     } on DioException catch (e) {
       log(e.runtimeType.toString(), name: runtimeType.toString());
       log(e.toString(), name: runtimeType.toString());

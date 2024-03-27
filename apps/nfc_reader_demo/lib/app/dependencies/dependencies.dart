@@ -5,9 +5,9 @@ import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 
 export 'app_blocs_module.dart';
-export 'app_blocs_provider.dart';
+
 export 'app_datasources_module.dart';
-export 'app_packages_module.dart';
+
 export 'app_repositories_module.dart';
 export 'app_usecases_module.dart';
 

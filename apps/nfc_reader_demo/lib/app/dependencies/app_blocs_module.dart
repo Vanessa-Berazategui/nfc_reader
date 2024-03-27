@@ -13,4 +13,15 @@ abstract class AppBlocsModule {
       HomeBloc(
         getNFCSupportUseCase: getNFCSupportUseCase,
       );
+
+  TagReaderBloc tagReaderBloc(
+    GetTagReaderStream getTagReaderStream,
+    StartReaderUseCase startReaderUseCase,
+    StopReaderUseCase stopReaderUseCase,
+  ) =>
+      TagReaderBloc(
+        getTagReaderStreamUseCase: getTagReaderStream,
+        startReaderUseCase: startReaderUseCase,
+        stopReaderUseCase: stopReaderUseCase,
+      );
 }

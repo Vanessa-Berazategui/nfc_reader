@@ -1,4 +1,11 @@
 {
     "@@locale": "es",
-    "nfcMeaning": "NFC (Near Field Communication), en castellano Comunicación de Campo Cercano, es una tecnología que permite la comunicación de corto alcance entre dos dispositivos inalámbricos de manera cómoda y rápida."
+    "nfcMeaning": "NFC (Near Field Communication), en castellano Comunicación de Campo Cercano, es una tecnología que permite la comunicación de corto alcance entre dos dispositivos inalámbricos de manera cómoda y rápida.",
+    "nfcNotSupported": "NFC no soportado",
+    "nfcSupported": "NFC soportado",
+    "nfcSupportLoading": "Cargando información de NFC ...",
+    "checkYourSettings": "Revisa la configuración NFC de tú teléfono",
+    "readTag": "Leer tag",
+    "chechAgain": "Volver a verificar",
+    "bringDeviceCloser": "Aproxime su dispositivo al tag"
 }

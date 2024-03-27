@@ -11,7 +11,21 @@ class NFCDataRepository implements NFCRepository {
   final NFCDataSource _dataSource;
 
   @override
+  Stream<Map<String, dynamic>> get tagReaderStream =>
+      _dataSource.tagReaderStream;
+
+  @override
   Future<Result<bool>> getNFSupport(NoParams params) async => process(
         action: _dataSource.getNFCSupport,
+      );
+
+  @override
+  Future<Result<void>> startReader(NoParams params) async => process(
+        action: _dataSource.startReader,
+      );
+
+  @override
+  Future<Result<void>> stopReader(NoParams params) async => process(
+        action: _dataSource.stopReader,
       );
 }

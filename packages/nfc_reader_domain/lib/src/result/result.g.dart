@@ -93,3 +93,14 @@ Map<String, dynamic> _$$FailureCacheImplToJson(_$FailureCacheImpl instance) =>
     <String, dynamic>{
       'runtimeType': instance.$type,
     };
+
+_$FailureNfcReadImpl _$$FailureNfcReadImplFromJson(Map<String, dynamic> json) =>
+    _$FailureNfcReadImpl(
+      $type: json['runtimeType'] as String?,
+    );
+
+Map<String, dynamic> _$$FailureNfcReadImplToJson(
+        _$FailureNfcReadImpl instance) =>
+    <String, dynamic>{
+      'runtimeType': instance.$type,
+    };

@@ -1,4 +1,5 @@
 import 'package:demo/home/app_home_page.dart';
+import 'package:demo/tag_reader/app_tag_reader_page.dart';
 
 import 'package:flutter/foundation.dart';
 
@@ -11,6 +12,7 @@ final appRouter = GoRouter(
   initialLocation: AppHomePage.route,
   routes: [
     AppHomePage(),
+    AppTagReaderPage(),
   ],
   debugLogDiagnostics: kDebugMode,
 );
