@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:nfc_reader_domain/nfc_reader_domain.dart';
 import 'package:nfc_reader_presentation/src/core/core.dart';
 import 'package:nfc_reader_presentation/src/nfc_reader_presentation.dart';
@@ -48,29 +49,28 @@ class TagReaderView extends StatelessWidget {
                   ),
                 ),
               ),
-              BlocBuilder<TagReaderBloc, TagReaderState>(
-                buildWhen: (previous, current) =>
-                    previous.tagData != current.tagData,
-                builder: (context, state) {
-                  return Column(
-                    children: [
-                      Text(
-                        bringDeviceCloserText.toUpperCase(),
-                        style: texts.bodyLarge?.copyWith(
-                          color: colors.onPrimary,
-                          fontWeight: FontWeight.bold,
+              Text(
+                bringDeviceCloserText.toUpperCase(),
+                style: texts.bodyLarge?.copyWith(
+                  color: colors.onPrimary,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Expanded(
+                child: Center(
+                  child: BlocBuilder<TagReaderBloc, TagReaderState>(
+                    buildWhen: (previous, current) =>
+                        previous.tagData != current.tagData,
+                    builder: (context, state) {
+                      return Text(
+                        state.tagData != null ? state.tagData!.toString() : '',
+                        style: texts.bodyMedium?.copyWith(
+                          color: colors.primary,
                         ),
-                      ),
-                      if (state.tagData?.isNotEmpty ?? false)
-                        Text(
-                          state.tagData!.toString(),
-                          style: texts.bodyMedium?.copyWith(
-                            color: colors.primary,
-                          ),
-                        ),
-                    ],
-                  );
-                },
+                      );
+                    },
+                  ),
+                ),
               ),
             ],
           ),
